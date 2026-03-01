@@ -14,7 +14,7 @@ A post-prediction QC validation layer is integrated to enhance analytical safety
 This framework: Improves performance in elevated TG states Reduces extreme analytical deviations Aligns ML predictions with laboratory quality control principles Supports implementation in ISO 15189–compliant laboratories
 
 ⚙️ Installation
-1️⃣ Clone the repository git clone (https://github.com/prasadishu/qc-aware-ldl-prediction.git) 2️⃣ Install dependencies pip install -r requirements.txt ▶️ How to Run Place your dataset inside: data/LDL_Internal_Training_Test_Dataset1.xlsx data/LDL_Secondary_Internal_Validation_Dataset1.xlsx
+1️⃣ Clone the repository git clone (https://github.com/prasadishu/QC-Aware-Machine-Learning-for-LDL-C-Estimation-.git)) 2️⃣ Install dependencies pip install -r requirements.txt ▶️ How to Run Place your dataset inside: data/LDL_Internal_Training_Test_Dataset1.xlsx data/LDL_Secondary_Internal_Validation_Dataset1.xlsx
 
 Required columns: TC TG HDL_C LDL_direct Then run: python src/main.py ** 📊 Outputs Generated** The script automatically generates:
 
